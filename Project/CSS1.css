@@ -1,0 +1,22 @@
+body{
+    background-color:aquamarine;
+
+}
+h1{
+    color:rgb(255, 149, 29);
+    font-size: 90px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+p{
+    color:brown
+}
+li{
+    color:brown
+}
+a{
+    color:blue
+
+}
