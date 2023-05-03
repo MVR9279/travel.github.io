@@ -39,8 +39,33 @@
                 <option value="likevideo2">屬性</option>
                 <option value="likevideo3">清單</option>
                 <option value="likevideo4">表格</option>
-
+            </select>
                 
+        </fieldset>
+
+        <fieldset>
+            <legend>登入資訊</legend>
+                <label>Email: </label>
+                <input type="email" name="useremail" size="50" placeholder="請輸入Email" required>
+                <br>
+                <br>
+                <label>密碼: </label>
+                <input type="password" name="userpassword" size="50" placeholder="請輸入密碼" required>
+                <br>
+                <br>
+                <label>URL </label>
+                <input type="url" name="userurl" size="50" placeholder="請輸入網址">
+                <br>
+                <br>
+                <label>生日: </label>
+                <input type="date" name="userbirthday" size="50">
+                <br>
+                <br>
+                <label>手機: </label>
+                <input type="tel" name="userphone" pattern="[1-9]{4}-[0-9]{6}" size="50" placeholder="請輸入09xx-xxxxxx">
+                <br>
+                <br>
+
         </fieldset>
 
         <input type="submit" value="送出">
