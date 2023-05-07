@@ -1,0 +1,39 @@
+h1{
+    background-color: aquamarine;
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h2{
+    background-color: yellowgreen;
+    color: blueviolet;
+    text-shadow: 3px 3px 3px black;
+    font-weight:bolder;
+    text-decoration: underline;
+    font-style:normal;
+
+}
+
+p{
+    color: teal;
+    font-size: 20px;
+     /* word-spacing: 100px;  */
+    letter-spacing: 10px;
+    /* 字間隔 */
+    text-indent: 40px;
+    /* 改開頭 */
+    line-height: 40px;
+    /* 字句高度 */
+}
+
+div{
+    /* column-width: 300px; 一個區間大小隨螢幕改變格數  dot*/
+    column-count:3;
+    column-gap: 100px;
+    /* 區域間隔 */
+    column-rule: 5px solid gray;
+    /* 區域間隔加線 */
+   
+}

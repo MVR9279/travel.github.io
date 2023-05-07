@@ -1,0 +1,38 @@
+.flex > div {
+    background-color: burlywood;
+    width:100px;
+    line-height: 75px;
+    margin:10px;
+    
+}
+.flex{
+    display:flex;
+    background-color: brown;
+    flex-direction:row;
+    /* 置中 */
+    justify-content: center;
+    /* align-items: center;  */
+    flex-wrap: wrap;
+    /* 營幕縮放時變化 */
+
+}
+.container{
+    background-color: blue;
+    padding:10px;
+    color: rgb(0, 0, 0);
+     display: grid; 
+    /* 格線排版 */
+    grid-template-columns: auto auto auto;
+    /* 建立欄 */
+    grid-template-rows: 200px 400px;
+    /* 調整格子高度 */
+    grid-gap: 40px 60px;
+    /* 調整格子與格子的間距 40上下差60左右*/
+
+}
+.container>div{
+    background-color: yellow;
+    padding:20px;
+    text-align: center;
+    font-size: 30px;
+}

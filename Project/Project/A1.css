@@ -1,0 +1,140 @@
+h1{
+        color: rgb(209, 22, 22);
+        font-size: 50px;
+        margin: 0;
+        padding: 50px;          
+        background: url(img/543565.jpg) center;
+        background-size: cover;   
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    /* 應為float 顏色跑掉 */
+    margin-top: 0%;
+}
+li{
+    display: inline-block;
+    /* 變文字 */
+    /* border-right: 1px solid black; */
+    margin-left: -4px;
+    /* 全部湊緊 */
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+nav{
+    text-align: center;
+}
+li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    /* 無底線 */
+}
+
+a:visited{
+    /* 拜訪過||為拜訪 link||游標上面hover||按住 active*/
+    color: deeppink;
+}
+a:link{
+    text-decoration: none;
+    /* 沒底線??? */
+    background-color: black;
+    padding: 6px;
+    /* 格子外圍空間 */
+
+}
+a:hover{
+    color: deepskyblue;
+    background-color: brown;
+    transition: 1s;
+}
+
+.c1{
+    background-color: rgb(13, 51, 51);
+    width: 500px;
+    height: 500px; 
+    gap: 10px;
+    opacity: 0.5;
+}
+.box{
+    background-color: rgb(178, 54, 178);
+    width: 100px;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-grid{
+    display:grid;
+    /* 格線排版*** */
+    grid-template-areas: 
+    'header header header '
+    'left middle  right'
+    'footer footer footer ';
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+.header{
+    background-color: burlywood;
+    padding:0px;
+    /* 調整格子大小 */
+    font-size: 0px;
+    grid-area: header;
+}
+.footer{
+    background-color:burlywood;
+    padding:30px;
+    /* 調整格子大小 */
+    font-size: 30px;
+    grid-area: footer;
+}
+.left{
+    background-color: blueviolet;
+    grid-area: left;
+}
+.middle{
+    background-color: rgb(73, 155, 238);
+    grid-area: middle;
+    padding:0px;
+    /* 調整格子大小 */
+    font-size: 0px;
+    
+}
+.right{
+    background-color: rgb(229, 191, 41);
+    grid-area: right;
+    
+}
+.left,.right{
+    /* padding:30px; */
+    height:500px;
+    height:500px;
+}  
+@media(max-width:600px){
+    .container-grid{
+        display:grid;
+        /* 格線排版*** */
+        grid-template-areas: 
+        'header '
+        'left'
+        'middle'
+        'right'
+        'footer';
+    
+    }
+}
+
+
+
+

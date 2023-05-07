@@ -1,0 +1,59 @@
+body{
+    background-color:bisque;
+    margin: 0px;
+    /* 刪掉左右空間 */
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(142, 229, 142);
+    overflow: hidden;
+    /* 應為float 顏色跑掉 */
+}
+li{
+    /* float:left; */
+    /* 無法置中 */
+    display: inline-block;
+    /* 變文字 */
+    border-right: 1px solid black;
+    margin-left: -4px;
+    /* 全部湊緊 */
+}
+#q1{
+    border-left: 1px solid black;
+}
+nav{
+    text-align: center;
+
+}
+li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    /* 無底線 */
+}
+/* div{
+    width:40%;
+    border:5px solid gray;
+    padding:20px;
+    margin: 20px;
+}
+.box4{
+    position: relative;
+    top:20px;
+    left:30px;
+    background-color: brown;
+
+}
+.box6{
+    position: absolute;
+    top:800px;
+    left:30px;
+    background-color: brown;
+}
+.box8{
+    position: absolute;
+    top:896px;
+    right:30px;
+    background-color: brown;
+} */

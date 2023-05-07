@@ -1,0 +1,49 @@
+.i{
+    display: inline;
+    /* 排隊 */
+
+}
+.b{
+    display:block;
+    /* 堆積木 */
+}
+.ib{
+    display: inline-block;
+    background-color: aquamarine;
+    /* 上面兩個相加 做導覽頁 */
+}
+
+
+.a::before{
+    content: "->6666";
+    background-color: crimson;
+    /* 加引號 content: open-quote; */
+}
+.a::after{
+    content: "*88888";
+    background-color: darkorchid;
+}
+
+
+
+.aa{
+    position: fixed;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body{
+    margin: 0%;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    padding-bottom:100px;
+    /* 加高 */
+
+}

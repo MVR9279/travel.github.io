@@ -1,0 +1,26 @@
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    /* 讓線不重複 */
+
+}
+th{
+    height: 70px;
+    background-color: black;
+    color: antiquewhite;
+    
+}
+td{
+    text-align: center;
+    height: 71px;
+
+}
+th,td{
+    border-bottom: 1px solid black;
+}
+tr:hover{
+    /* 指標指向變化 */
+    background-color: rgb(147, 84, 207);
+    color: rgb(225, 148, 47);
+}

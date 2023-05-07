@@ -1,0 +1,163 @@
+h1{
+    color: rgb(209, 22, 22);
+    font-size: 50px;
+    margin: 0;
+    padding: 50px;          
+    background: url(img/543565.jpg) center;
+    background-size: cover;   
+}
+h2{
+    font-size: 50px;
+    margin: 0;
+    background-color: rgb(239, 129, 129);
+    color: rgb(21, 60, 143);
+    padding: 8.8px; 
+    text-align: center;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    
+}
+body{
+background-color: rgb(239, 129, 129);
+margin: 0px;
+}
+
+
+ul{
+list-style-type: none;
+padding: 0px;
+background-color: rgb(0, 0, 0);
+overflow: hidden;
+/* 應為float 顏色跑掉 */
+margin-top: 0%;
+}
+li{
+display: inline-block;
+/* 變文字 */
+/* border-right: 1px solid black; */
+margin-left: -4px;
+/* 全部湊緊 */
+font-size: 20px;
+font-weight: bolder;
+
+}
+nav{
+text-align: center;
+}
+li a{
+display: block;
+padding: 20px;
+text-decoration: none;
+/* 無底線 */
+}
+
+a:visited{
+/* 拜訪過||為拜訪 link||游標上面hover||按住 active*/
+color: deeppink;
+}
+a:link{
+text-decoration: none;
+/* 沒底線??? */
+background-color: black;
+padding: 6px;
+/* 格子外圍空間 */
+
+}
+a:hover{
+color: deepskyblue;
+background-color: brown;
+transition: 1s;
+}
+
+.a{
+    width: 432.5px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%,-30%);
+    background: url(img2/01.jpg) center;
+    background-size: cover;   
+}
+
+.b{
+    background-color: rgb(90, 219, 101);
+    width: 435px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 37.3%;
+    transform: translate(-50%,-30%);
+    background: url(img2/02.png) center;
+    background-size: cover; 
+    
+}
+.c{
+    background-color: rgb(91, 40, 142);
+    width: 440px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 62.5%;
+    transform: translate(-50%,-30%);
+    background: url(img2/03.jpg) center;
+    background-size: cover; 
+   
+}
+.d{
+    background-color: rgb(213, 157, 45);
+    width: 432.5px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 87.5%;
+    transform: translate(-50%,-30%);
+    background: url(img2/04.jpg) center;
+    background-size: cover; 
+}
+
+.a1{
+        width: 432.5px;
+        height: 500px; 
+        position: absolute;
+        top: 90%;
+        left: 0%;
+        transform: translate(-0%,-0%);
+        text-align: center;  
+}
+.b1{
+    width: 432.5px;
+    height: 500px; 
+    position: absolute;
+    top: 90%;
+    left: 37.3%;
+    transform: translate(-50%,-0%);
+    text-align: center; 
+}
+.c1{
+    width: 432.5px;
+    height: 500px; 
+    position: absolute;
+    top: 90%;
+    left: 62.5%;
+    transform: translate(-50%,-0%);
+    text-align: center;  
+}
+.d1{
+    width: 432.5px;
+    height: 500px; 
+    position: absolute;
+    top: 90%;
+    left: 87.5%;
+    transform: translate(-50%,-0%);
+    text-align: center; 
+}
+h3{
+    font-size: 35px;
+}
+p{
+    font-size: 23px;
+    font-weight: bolder;
+}
